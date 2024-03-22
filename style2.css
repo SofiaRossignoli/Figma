@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Kelly Slab';
+}
+
+:root {
+    --primary: #CC0404;
+    --secondary: #EEBA04;
+    --tertiary: #2B0F0F45;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--secondary);
+}
+
+header {
+    display: flex;
+    background-color: var(--tertiary);
+    justify-content:space-between;
+    height: 4rem;
+}
+
+header section img{
+    height: 3rem;
+    margin-top: 100px;
+    margin: 0 0.1rem;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+header nav a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--white);
+}
+
+header nav a:hover{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+}
+
+main div{
+    background-color: var(--tertiary);
+    margin: 50px;
+}
+
+main div section p{
+    margin: 100px;
+    font-size: 250%;
+}
+
+main div p{
+    margin: 100px;
+    font-size: 200%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--tertiary);
+}
