@@ -49,7 +49,26 @@ header nav a:hover{
     font-weight: bold;
 }
 
-main p{
-    margin: 100px;
+main {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main div p{
     font-size: 600%;
+    color: var(--white);
+}
+main div button {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--tertiary);
+    font-size: 200%;
+    color: var(--white);
 }

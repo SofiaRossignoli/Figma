@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="responsivo.css">
 </head>
 
 <body>
@@ -13,21 +16,27 @@
             <img src="./imagens/face.png" alt="Facebook">
             <img src="./imagens/insta.png" alt="Instagram">
         </section>
+        <input type="checkbox" id="menu-abre">
         <nav>
-            <a href="index.html">INICIO</a>
+            <label for="menu-abre">
+                <span class="menu-hamburger"></span>
+                <span class="menu-hamburger"></span>
+                <span class="menu-hamburger"></span>
+            </label>
+            <div>
+                <a href="index.html">INICIO</a>
+            </div>
         </nav>
     </header>
     <main>
-        <p>
-            AKUMA NO MI
-        </p>
         <div>
-            <button type="button">PARAMECIA</button>
+            <p>
+                AKUMA NO MI
+            </p>
+            <button type="button" onclick="window.location.href='./index2.html'" >PARAMECIA</button>
             <button type="button">ZOAN</button>
             <button type="button">LOGIA</button>
         </div>
-        <div>
-            <img src="./imagens/luffy-removebg-preview 1.png" alt="Luffy o rei dos piratas">
-        </div>
+        <img src="./imagens/luffy-removebg-preview 1.png" alt="Luffy o rei dos piratas">
     </main>
 </body>

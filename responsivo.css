@@ -1,0 +1,41 @@
+@media (max-width:800px) {
+    main.index {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width:500px) {
+    main.index {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:730px) {
+    main img {
+        display: none;
+    }
+
+    main div p {
+        margin-bottom: 5rem;
+    }
+    main div button {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width:400px) {
+    main.index {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    main.index section {
+        flex-direction: column;
+    }
+
+    main.index section img {
+        width: 100%;
+    }
+}
